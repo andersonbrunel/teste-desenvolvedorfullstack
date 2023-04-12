@@ -231,7 +231,6 @@ ooiiueueooeuouauuaiuiaoieeeeoouoeiaaaeieiooeouioeuooeeiauouueiuieaeaieeooaoeiuu'
 	private function exercicio2($quantidade)
 	{
 
-		$retornoStr = '';
 		$sequencia  = '';
 		$anterior   = 1;
 		$anterior2  = 0;
