@@ -264,15 +264,8 @@ ooiiueueooeuouauuaiuiaoieeeeoouoeiaaaeieiooeouioeuooeeiauouueiuieaeaieeooaoeiuu'
 	private function exercicio3($string)
 	{
 		$stringArray = str_split($string);
-
-		$negarA = false;
-		$negarE = true;
-		$negarI = true;
-		$negarO = true;
-		$negarU = true;
-
-		$soma     = 0;
-		$completo = true;
+		$soma        = 0;
+		$completo    = true;
 
 		if ( !in_array("a", $stringArray) && !in_array("A", $stringArray)) { 
 			$completo = false;
